@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ruleta_consola
 {
-    public class Empleado
+    public class Empleado : Persona
     {
+        public Empleado(string nombre, string apellido) : base(nombre, apellido)
+        {
+        }
+
+        public override string Descripc()
+        {
+            return "el nombre del empleado es:" + base.nombre + "\n" + "Apellido:"+ base.apellido;
+        }
     }
 }
