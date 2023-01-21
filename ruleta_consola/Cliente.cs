@@ -19,10 +19,6 @@ namespace ruleta_consola
         {
             return "el nombre :" + base.nombre + "\n" + "Apellido:" + base.apellido  ;
         }
-        public int ver_Saldo() {
 
-
-            return saldo;
-        }
     }
 }
